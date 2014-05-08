@@ -1,4 +1,5 @@
 ActiveAdmin.register Dish do
+  permit_params :name, :image, :url
 
   
   # See permitted parameters documentation:
